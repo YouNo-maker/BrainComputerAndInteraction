@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BCAI</class>
+ <widget class="QMainWindow" name="BCAI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BCAI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 247, 247);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0,15">
+    <property name="spacing">
+     <number>5</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>1</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="Naviwidget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(247, 247, 247);</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QComboBox" name="filterComboBox">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="FormDatabox">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fqspushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	font: 9pt &quot;Mongolian Baiti&quot;;
+    border: 2px solid#cccccc;
+    border-radius: 10px;
+    padding: 5px 15px;
+   background-color: rgb(255, 255, 255);
+}QPushButton:hover {
+             background-color: rgb(184, 184, 184);
+        }</string>
+         </property>
+         <property name="text">
+          <string>Frequency Spectrum</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="camerapushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	font: 9pt &quot;Mongolian Baiti&quot;;
+    border: 2px solid#cccccc;
+    border-radius: 10px;
+    padding: 5px 15px;
+   background-color: rgb(255, 255, 255);
+}QPushButton:hover {
+             background-color: rgb(184, 184, 184);
+        }</string>
+         </property>
+         <property name="text">
+          <string>Camern</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="chongzhipushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	font: 9pt &quot;Mongolian Baiti&quot;;
+    border: 2px solid#cccccc;
+    border-radius: 10px;
+    padding: 5px 15px;
+   background-color: rgb(255, 255, 255);
+}QPushButton:hover {
+            background-color: rgb(184, 184, 184);
+        }</string>
+         </property>
+         <property name="text">
+          <string>Reset</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="recordpushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	font: 9pt &quot;Mongolian Baiti&quot;;
+    border: 2px solid#cccccc;
+    border-radius: 10px;
+    padding: 5px 15px;
+   background-color: rgb(255, 255, 255);
+}QPushButton:hover {
+             background-color: rgb(184, 184, 184);
+        }</string>
+         </property>
+         <property name="text">
+          <string>StartRecord</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ConnectpushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	font: 9pt &quot;Mongolian Baiti&quot;;
+    border: 2px solid#cccccc;
+    border-radius: 10px;
+    padding: 5px 15px;
+   background-color: rgb(255, 255, 255);
+}QPushButton:hover {
+            background-color: rgb(184, 184, 184);
+        }</string>
+         </property>
+         <property name="text">
+          <string>Connection Mode</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Start_EndpushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	font: 9pt &quot;Mongolian Baiti&quot;;
+    border: 2px solid#cccccc;
+    border-radius: 10px;
+    padding: 5px 15px;
+   background-color: rgb(255, 255, 255);
+}QPushButton:hover {
+          background-color: rgb(184, 184, 184);
+        }</string>
+         </property>
+         <property name="text">
+          <string>Start</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="Eggwidget" native="true"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

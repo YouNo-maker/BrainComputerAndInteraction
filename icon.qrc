@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/Sign.png</file>
+        <file>icon/connect.png</file>
+        <file>icon/Ifeature.png</file>
+        <file>icon/camera.png</file>
+    </qresource>
+</RCC>
